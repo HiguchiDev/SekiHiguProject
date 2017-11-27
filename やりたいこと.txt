@@ -1,3 +1,3 @@
-Git ignore を書く
-Unity の新規プロジェクトを関が作成する
-Fire Ridesのステージの形を作る
+Git ignore を書く	11/27
+Unity の新規プロジェクトを関が作成する	11/28
+Fire Ridesのステージの形を作る	
