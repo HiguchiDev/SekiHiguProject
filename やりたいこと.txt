@@ -1,0 +1,3 @@
+Git ignore を書く
+Unity の新規プロジェクトを関が作成する
+Fire Ridesのステージの形を作る
