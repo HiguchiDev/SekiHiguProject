@@ -4,22 +4,20 @@ using System.Collections;
 public class CameraControl : MonoBehaviour
 {
 
-    private GameObject player = null;
-
-    public Vector3 offset;
+    GameObject Player;
+    GameObject mainCamera;
 
     // Use this for initialization
     void Start()
     {
-        this.player = GameObject.FindGameObjectWithTag("Player");
-
-        this.offset = this.transform.position - this.player.transform.position;
+        Player = GameObject.FindGameObjectWithTag("Player");
+        mainCamera = GameObject.FindGameObjectWithTag("MainCamera");
     }
-
     // Update is called once per frame
     void Update()
     {
-        this.transform.position = new Vector3(this.player.transform.position.x + this.offset.x, this.player.transform.position.y, this.player.transform.position.z + this.offset.z);
+
+        mainCamera.transform.position = new Vector3(Player.transform.position.x, Player.transform.position.y, Player.transform.position.z - 10);
 
     }
 }

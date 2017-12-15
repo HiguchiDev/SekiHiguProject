@@ -180,7 +180,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9f40352ecd049c43beab941c5f124c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0, y: 0, z: 0}
 --- !u!81 &498412148
 AudioListener:
   m_ObjectHideFlags: 0
